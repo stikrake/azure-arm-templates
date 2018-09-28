@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "keyvault", "keyvault\keyvault.deployproj", "{97D6A3F0-D5A1-4136-BF5E-E15841030003}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "functionapp", "functionapp\functionapp.deployproj", "{5BC060E3-82E5-41CF-9B74-A0AC01E1FB1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D6A3F0-D5A1-4136-BF5E-E15841030003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D6A3F0-D5A1-4136-BF5E-E15841030003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D6A3F0-D5A1-4136-BF5E-E15841030003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D6A3F0-D5A1-4136-BF5E-E15841030003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC060E3-82E5-41CF-9B74-A0AC01E1FB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC060E3-82E5-41CF-9B74-A0AC01E1FB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC060E3-82E5-41CF-9B74-A0AC01E1FB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC060E3-82E5-41CF-9B74-A0AC01E1FB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {865CC2FE-332E-4D7E-9743-46AF29A06E3D}
+	EndGlobalSection
+EndGlobal
